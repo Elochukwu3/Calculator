@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="calculator">
+            <div class="calc-screen">
+                <div class="summary"> summary</div>
+            <div class="result">0</div> </div>
+            <div class="calc-Btns">
+                <button class="btn top operator del" value="clear"data-action="delete">AC</button>
+                <button class="btn top " value="+/-" data-action="minus">+/-</button>
+                <button class="btn top operator" value="%" data-action="percentage">%</button>
+                <button class="btn side operator" value="/" data-action="divide">&#247</button>
+                <button class="btn main" value="7">7</button>
+                <button class="btn main" value="8">8</button>
+                <button class="btn main" value="9">9</button>
+                <button class="btn side" value="*" data-action="multiplication">x</button>
+                <button class="btn main" value="4">4</button>
+                <button class="btn main" value="5">5</button>
+                <button class="btn main" value="6">6</button>
+                <button class="btn side operator" value="-" data-action="subtraction">-</button>
+                <button class="btn main" value="1">1</button>
+                <button class="btn main" value="2">2</button>
+                <button class="btn main" value="3">3</button>
+                <button class="btn side operator" value="+" data-action="addition">+</button>
+                <button class="btn space" value="0">0</button>
+                <!-- <button class="btn" value="0">0</button> -->
+            
+                <button class="btn main" value=".">.</button>
+                <button class="btn side operator" value="=" data-action="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

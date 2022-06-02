@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.page-container{
+    /* margin: auto; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    background-color: black;
+    border-radius: 30px;
+
+}
+.summary{
+    height: 50px;
+}
+.result{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    border: 2px solid white;
+    justify-content: right;
+    height: 65%;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.calc-screen{
+    height: 150px;
+    width: 100%;
+    border-bottom: 5px solid gray;
+    /* display: flex;
+    justify-content: right;
+    align-items: center; */
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.calc-Btns{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    row-gap: 2px;
+   margin-top: 20px;
+   /* column-gap: -1px; */
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+    /* margin: -100px; */
+}
+.btn:hover{
+    background-color: brown;
+}
+.space{
+    grid-column-start:1;
+    grid-column-end: 3;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: grey ;
+}
+    
+
+    
+
+.top{
+    background-color: gainsboro;
+    color: white;
+}
+.main{
+    background-color: gray;
+}
+.side{
+    background-color: gold;
+}
